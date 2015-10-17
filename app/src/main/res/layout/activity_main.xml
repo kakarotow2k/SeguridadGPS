@@ -1,0 +1,16 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <at.markushi.ui.CircleButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher_location"
+        app:cb_color="#cc2119"
+        app:cb_pressedRingWidth="6dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>
